@@ -1,0 +1,60 @@
+body {
+  /*text css info*/
+  margin-top: 60px;
+  font-family: cursive;
+  text-align: center;
+  color: #eee;
+  text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+
+  /*background css info*/
+  background-repeat: no-repeat;
+  height = 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#localWeather {
+  font-size: 32px;
+}
+
+#city, #country, #temp, #details {
+  font-size: 24px;
+}
+
+/*
+#lat {
+  font-size: 24px;
+  text-align: right;
+}
+#lon {
+  font-size: 24px;
+  text-align: left;
+}
+*/
+
+#city {
+  text-align: right;
+}
+
+#country {
+  text-align: left;
+}
+
+.btn {
+  font-family: cursive;
+}
+
+#footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
